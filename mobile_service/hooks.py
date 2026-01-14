@@ -1,25 +1,21 @@
 app_name = "mobile_service"
-app_title = "Mobile_Service_Project"
+app_title = "Mobile Service Project"
 app_publisher = "saddam"
-app_description = "Mobile_Service_Project"
+app_description = "Mobile Service Project"
 app_email = "saddam.hassan222@gmail.com"
 app_license = "mit"
 
 # Apps
 # ------------------
 
-# required_apps = []
-
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "mobile_service",
-# 		"logo": "/assets/mobile_service/logo.png",
-# 		"title": "Mobile_Service_Project",
-# 		"route": "/mobile_service",
-# 		"has_permission": "mobile_service.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+    {
+        "name": "mobile_service",
+        "logo": "/assets/mobile_service/logo.png",
+        "title": "Mobile Service Project",
+        "route": "/mobile_service"
+    }
+]
 
 # Includes in <head>
 # ------------------
