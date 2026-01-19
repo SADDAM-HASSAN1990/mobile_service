@@ -1,0 +1,32 @@
+{
+ "doctype": "Workspace",
+ "name": "DoBiz",
+ "label": "DoBiz",
+ "module": "Mobile Service",
+ "is_standard": 1,
+ "public": 1,
+ "icon": "service",
+ "links": [
+  {
+   "label": "Service Operations",
+   "link_type": "DocType",
+   "link_to": "Service Request",
+   "type": "Link"
+  },
+  {
+   "label": "Technician Logs",
+   "link_type": "DocType",
+   "link_to": "Technician Visit",
+   "type": "Link"
+  }
+ ],
+ "shortcuts": [
+  {
+   "label": "New Service Request",
+   "link_to": "Service Request",
+   "type": "DocType",
+   "doc_view": "New",
+   "color": "Orange"
+  }
+ ]
+}
